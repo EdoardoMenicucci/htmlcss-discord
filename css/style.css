@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.mauto {
+    margin: auto;
+    width: 70vw;
+
+}
+
+.borderdot {
+    border: 5px dotted black;
+}
+
+.borderdotd {
+    border-top: 5px dotted black;
+    border-bottom: 5px dotted black;
+    border-left: 5px dotted black;
+}
+
+.hsez {
+    min-height: 60vh;
+    padding: 5vh 0 5vh 0;
+}
+
+.flex {
+    display: flex;
+}
+
+.flexr {
+    order: -1;
+
+}
+
+.grey {
+    background-color: lightgray;
+}
+
+header {
+    background-color: aqua;
+
+}
+
+.hd {
+
+    min-height: 10vh;
+    padding: 2vh 0 2vh 0;
+}
+
+nav {
+    background-color: goldenrod;
+    min-height: 6vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top {
+    width: 15vw;
+    border: 5px dotted black;
+    line-height: 5vh;
+    vertical-align: middle;
+}
+
+.topc {
+    border-top: 5px dotted black;
+    border-bottom: 5px dotted black;
+    line-height: 5vh;
+    vertical-align: middle;
+    width: 40vw;
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+
+}
+
+.blue {
+    background-color: blue;
+}
+
+.purple {
+    background-color: plum;
+    width: 50vw;
+    height: 50vh;
+
+}
+
+.sq {
+    height: 50vh;
+    width: 70vw;
+}
+
+.blues {
+    background-color: lightskyblue;
+    height: 50vh;
+    width: 40vw;
+}
+
+.pinkd {
+    background-color: pink;
+    width: 30vw;
+    height: 50vh;
+}
+
+.green {
+    background-color: green;
+    height: 70vh;
+    width: 70vw;
+}
+
+.greyg {
+    background-color: lightgray;
+    min-height: 80vh;
+}
+
+.darkgr {
+    background-color: darkslategrey;
+}
+
+.darkpink {
+    background-color: lightcoral;
+    width: calc(70vw / 3);
+    height: 50vh;
+    border-right: 5px dotted black;
+}
+
+/* .sciano {
+    width: calc((70vw / 3) * 2);  NON UTILE/ DISALLINEA SEZIONI
+} */
+
+.ciano {
+    background-color: aquamarine;
+    width: 12vw;
+    min-height: 50vh;
+    border-top: 5px dotted white;
+    border-right: 5px dotted white;
+    border-bottom: 5px dotted white;
+
+}
+
+footer {
+    min-height: 10vh;
+    padding: 2vh 0 0;
+}
+
+.sezfooter {
+    min-height: 8vh;
+    width: 70vw;
+    background-color: aqua;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottom {
+    vertical-align: middle;
+    border: 5px dotted black;
+    padding: 7px;
+    background-color: rgb(165, 167, 168);
+}
