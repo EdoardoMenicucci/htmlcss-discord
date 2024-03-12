@@ -284,10 +284,6 @@ hr {
     transform: scaleY(-1);
 }
 
-#orda-bord {
-    border-bottom: 10px solid lightgray;
-    box-shadow: 0px 4px 6px lightgray;
-}
 
 .img-footer {
     height: 40px;
