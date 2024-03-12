@@ -179,6 +179,7 @@ nav {
 .greyg {
     background-color: lightgray;
     min-height: 80vh;
+    margin-bottom: 2px solid black;
 }
 
 .darkgr {
@@ -278,10 +279,11 @@ hr {
 }
 
 .ondar {
-    height: 10vh;
+    width: 100wv;
+    height: 100%;
     background-image: url(../img/wave.svg);
     opacity: 0.17;
-    transform: scaleY(-1);
+    transform: rotateX(180deg);
 }
 
 
@@ -307,4 +309,8 @@ hr {
 
 .gap {
     gap: 2vw;
+}
+
+.gap1px {
+    z-index: 30;
 }
