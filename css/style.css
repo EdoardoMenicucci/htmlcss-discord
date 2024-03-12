@@ -181,14 +181,13 @@ nav {
 }
 
 .darkgr {
-    background-color: darkslategrey;
+    background-color: rgb(35, 39, 42);
 }
 
 .darkpink {
-    background-color: lightcoral;
+    /* background-color: lightcoral; */
     width: calc(70vw / 3);
     height: 50vh;
-    border-right: 5px dotted black;
 }
 
 /* .sciano {
@@ -196,12 +195,12 @@ nav {
 } */
 
 .ciano {
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     width: 12vw;
     min-height: 50vh;
-    border-top: 5px dotted white;
+    /* border-top: 5px dotted white;
     border-right: 5px dotted white;
-    border-bottom: 5px dotted white;
+    border-bottom: 5px dotted white; */
 
 }
 
@@ -213,16 +212,16 @@ footer {
 .sezfooter {
     min-height: 8vh;
     width: 70vw;
-    background-color: aqua;
+    /* background-color: aqua; */
     justify-content: space-between;
     align-items: center;
 }
 
-.bottom {
+.bottoml {
     vertical-align: middle;
-    border: 5px dotted black;
-    padding: 7px;
-    background-color: rgb(165, 167, 168);
+    padding: 13px;
+    background-color: rgb(114, 147, 218);
+    color: white;
 }
 
 .item1 {
@@ -247,5 +246,39 @@ footer {
 
 .but-blue {
     color: white;
-    background-color: #0050d1;
+    background-color: rgb(114, 147, 218);
+}
+
+.blue-text {
+    color: rgb(114, 147, 218);
+}
+
+h3 {
+    color: white;
+}
+
+hr {
+    color: rgb(114, 147, 218);
+}
+
+.ita {
+    height: 17px;
+}
+
+.stelline {
+    background-image: url(../img/stars.svg);
+    background-size: 70%;
+}
+
+.onda {
+    height: 10vh;
+    background-image: url(../img/wave.svg);
+    opacity: 0.17;
+}
+
+.ondar {
+    height: 10vh;
+    background-image: url(../img/wave.svg);
+    opacity: 0.17;
+    transform: scaleY(-1);
 }
