@@ -39,6 +39,7 @@ button {
 .black-button {
     background-color: black;
     color: white;
+    padding: 1.3vh 0.6vw;
 }
 
 h1 {
@@ -281,4 +282,33 @@ hr {
     background-image: url(../img/wave.svg);
     opacity: 0.17;
     transform: scaleY(-1);
+}
+
+#orda-bord {
+    border-bottom: 10px solid lightgray;
+    box-shadow: 0px 4px 6px lightgray;
+}
+
+.img-footer {
+    height: 40px;
+    filter: brightness(0%) invert(100%);
+    margin-right: 1vw;
+}
+
+.img-download {
+    height: 30px;
+    filter: brightness(0%) invert(100%);
+    float: left;
+    margin-right: 0.3vw;
+}
+
+.img-download-top {
+    filter: brightness(0%);
+    height: 30px;
+    margin-right: 0.3vw;
+    float: left;
+}
+
+.gap {
+    gap: 2vw;
 }
