@@ -278,12 +278,16 @@ hr {
     opacity: 0.17;
 }
 
-.ondar {
-    width: 100wv;
+.onda-r {
     height: 100%;
     background-image: url(../img/wave.svg);
     opacity: 0.17;
     transform: rotateX(180deg);
+}
+
+.sez-onda {
+    height: 8.5vh;
+    width: 100%;
 }
 
 
