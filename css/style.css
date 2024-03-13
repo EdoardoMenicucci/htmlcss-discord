@@ -23,7 +23,7 @@
 }
 
 .hsez {
-    min-height: 60vh;
+    /* min-height: 60vh; */
     padding: 5vh 0 5vh 0;
 }
 
@@ -44,12 +44,12 @@ button {
 
 h1 {
     text-align: center;
-    font-size: 60px;
+    font-size: 5vh;
 }
 
 h2 {
     text-align: center;
-    font-size: 45px;
+    font-size: 3vh;
 }
 
 p {
@@ -227,13 +227,17 @@ footer {
 }
 
 .item1 {
-    height: 50vh;
+    max-height: 40vh;
+    max-width: 30vw;
     transform: scale(1.5);
+    margin: 1vh 0;
 
 }
 
 .item2 {
     transform: scale(1.3);
+    max-height: 40vh;
+    max-width: 30vw;
 }
 
 .not-center {
